@@ -1,25 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>SteamSaleDates.com | Check when the next steam sale is</title>
+    <title>SteamSaleDates.com | Check when the next steam sale is on!</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
-    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-    <script src="js/sale.js"></script>
-    <meta name="description" content="Get information about the next steam sale at Steamsaledates.com. We provide the most accurate information regarding the sales!" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133485111-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-133485111-2');
+    </script>
+
+    
+    <script defer src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <script defer  src="js/sale.js"></script>
+    <meta name="description" content="Get the Latest Information on the next steam sale at Steamsaledates.com. We provide the most accurate information regarding the next steam sale!" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <link rel="canonical" href="https://steamsaledates.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.SteamSaleDates.com/" />
     <meta name="theme-color" content="#2a2e3d" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="og:title" content="SteamSaleDates.com | Check when the next steam sale is" />
-    <link rel="shortcut icon" href="https://www.stickpng.com/assets/images/58f768cc84b713aab61d0a0c.png" />
-    <meta property="og:description" content="Get information about the next steam sale at Steamsaledates.com. We provide the most accurate information regarding the sales!" />
-    <meta name="keywords" content="steam sale, when is steam sale, steam game cheap, steam cheap game, who is steam sale, cheap games, steam sale, confirmed steam sale, steam sale dates">
+    <meta property="og:title" content="SteamSaleDates.com | Check when the next steam sale is on!" />
+    <link rel="shortcut icon" href="img/icon.png" />
+    <meta property="og:description" content="Get the Latest Information on the next steam sale at Steamsaledates.com. We provide the most accurate information regarding the next steam sale!" />
+    <meta name="keywords" content="steam sale, when is steam sale, steam sale countdown, steam game cheap, steam cheap game, who is steam sale, cheap games, steam sale, confirmed steam sale, steam sale dates, steam sale leaks">
 </head>
 
 <body>
@@ -30,12 +42,12 @@
         <div id="event"></div>
         <span id="nextsale"></span>
         <p><span id="Countdowndate"></span> <span id="status"></span></p>
-        <!--<section class="newsletter">
-          <p>Let us know your e-mail adresse so we could tell you when the next steam sale is. We will send out an email 1 week before the sales.</p>
+        <section class="newsletter">
             <form action="https://send.pageclip.co/tXFzaFHgPaRiCjHQhLLAt20P8y3xjB8R/newslettersteam" class="pageclip-form" method="post">
-            <input type="email"  class="form-control" name="email" placeholder="test@gmail.com" />  <button type="submit" class="pageclip-form__submit"><span>Send</span>  </button>
+                 <input type="email" class="form-control" name="email" placeholder="John@example.com" required>  <button type="submit" class="pageclip-form__submit"><span>Send</span>  </button>
+                 <p id="informationEmail">We will only use your e-mail to remind you a week before the sale is happening</p>
             </form>
-        </section> -->
+        </section> 
     </main>
 
     <section id="bottom">
@@ -47,11 +59,10 @@
             <p>
                 A small label will inform you whether the date has been confirmed or not. Notice that the timer on the page is set on the day, not the actual hour of the sale.
             </p>
-
         </section>
 
     </section>
-    <footer>© 2020 Copyright SteamSaleDates.com</footer>
+    <footer>© 2020 Copyright SteamSaleDates.com | <a href="privacy.html" style="color: white;" target="_blank">Privacy Policy</a></footer>
 
 </body>
 
