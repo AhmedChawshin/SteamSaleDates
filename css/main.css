@@ -1,20 +1,23 @@
-body,html {
+body,
+html {
     height: auto;
-    width:100%;
-    margin:0;
-    padding:0;
-    background-color: rgb(26, 28, 36);
-    color: white;
-    font-family: sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1c24;
+    color: #fff;
+    font-family: sans-serif
 }
+
 header span {
-   /* color: #48697a; */
-  text-align: center;
+    text-align: center
 }
+
 .newsletter {
-	margin: auto;
-	width: auto;
+    margin: auto;
+    width: auto
 }
+
 .form-control {
     display: block;
     width: 50%;
@@ -27,196 +30,314 @@ header span {
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    margin-bottom: 10px
 }
+
 header {
     height: auto;
     background-color: #2a2e3d;
     text-align: center;
     padding: 5px;
-    margin-bottom: 50px;
-  }
+    margin-bottom: 50px
+}
 
 button {
-  background-color: #48697a;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-size: 10px;
+    background-color: #48697a;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 12px
 }
+
+.pageclip-form {
+    padding-top: 25px
+}
+
+#informationEmail {
+    font-size: 12px
+}
+
 #top {
     margin: auto;
     width: 800px;
-    height: 500px;
+    height: 500px
 }
+
 #bottom {
     height: 500px;
     margin: auto;
     width: 100%;
-    background-color: #2a2e3d;
+    background-color: #2a2e3d
 }
+
 #faq {
     margin: auto;
     width: 800px;
-    height: 500px;
+    height: 500px
 }
+
 #nextsale {
-    font-size: 50px;
+    font-size: 50px
 }
+
 #info {
-    color: #48697a; 
-    padding-top: 25px;
+    color: #48697a;
+    padding-top: 25px
 }
+
 footer {
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  bottom: 2px;
-  text-align: center;
-  padding: 5px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    text-align: center;
+    padding: 5px
 }
+
 #status {
     background-color: #392b39;
-    padding: 2px;
+    padding: 2px
 }
+
 #event {
     color: #48697a;
     font-size: 1.5em;
-    padding-bottom: 15px;
+    padding-bottom: 15px
 }
+
 .rainbow {
-   /* Chrome, Safari, Opera */
-   -webkit-animation: rainbow 5s infinite; 
-  
-   /* Internet Explorer */
-   -ms-animation: rainbow 5s infinite;
-   
-   /* Standar Syntax */
-   animation: rainbow 5s infinite; 
- }
- 
- /* Chrome, Safari, Opera */
- @-webkit-keyframes rainbow{
-   0%{color: orange;}	
-   10%{color: purple;}	
-     20%{color: red;}
-   30%{color: CadetBlue;}
-     40%{color: yellow;}
-   50%{color: coral;}
-     60%{color: green;}
-   70%{color: cyan;}
-   80%{color: DeepPink;}
-   90%{color: DodgerBlue;}
-     100%{color: orange;}
- }
- 
- /* Internet Explorer */
- @-ms-keyframes rainbow{
-    0%{color: orange;}	
-   10%{color: purple;}	
-     20%{color: red;}
-   30%{color: CadetBlue;}
-     40%{color: yellow;}
-   50%{color: coral;}
-     60%{color: green;}
-   70%{color: cyan;}
-   80%{color: DeepPink;}
-   90%{color: DodgerBlue;}
-     100%{color: orange;}
- }
- 
- /* Standar Syntax */
- @keyframes rainbow{
-     0%{color: orange;}	
-   10%{color: purple;}	
-     20%{color: red;}
-   30%{color: CadetBlue;}
-     40%{color: yellow;}
-   50%{color: coral;}
-     60%{color: green;}
-   70%{color: cyan;}
-   80%{color: DeepPink;}
-   90%{color: DodgerBlue;}
-     100%{color: orange;}
- }
- @media only screen and (device-width: 768px) {
-      #nextsale {
-        font-size: 25px;
+    -webkit-animation: rainbow 5s infinite;
+    -ms-animation: rainbow 5s infinite;
+    animation: rainbow 5s infinite
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        color: orange
     }
-    header {
-        width: 100%;
-        height: auto;
-        background-color: #2a2e3d;
-        text-align: center;
-        padding: 5px;
-        margin-bottom: 50px;
-      }
-      #top {
-        margin: auto;
-        width: auto;
-        padding: 15px;
-        height: auto;
+
+    10% {
+        color: purple
     }
-    #bottom {
-        margin: auto;
-        width: auto;
-        padding: 15px;
-        height: auto;
-        background-color: #1a1c24;
+
+    20% {
+        color: red
     }
-    #faq {
-        width: auto;
+
+    30% {
+        color: #5f9ea0
     }
-    footer {
-        background-color: #2a2e3d;
-        padding: 10px;
-        bottom: 0px;
+
+    40% {
+        color: #ff0
+    }
+
+    50% {
+        color: coral
+    }
+
+    60% {
+        color: green
+    }
+
+    70% {
+        color: #0ff
+    }
+
+    80% {
+        color: #ff1493
+    }
+
+    90% {
+        color: #1e90ff
+    }
+
+    100% {
+        color: orange
     }
 }
 
-@media only screen and (max-width: 600px) {
-    #nextsale {
-        font-size: 25px;
+@-ms-keyframes rainbow {
+    0% {
+        color: orange
     }
+
+    10% {
+        color: purple
+    }
+
+    20% {
+        color: red
+    }
+
+    30% {
+        color: #5f9ea0
+    }
+
+    40% {
+        color: #ff0
+    }
+
+    50% {
+        color: coral
+    }
+
+    60% {
+        color: green
+    }
+
+    70% {
+        color: #0ff
+    }
+
+    80% {
+        color: #ff1493
+    }
+
+    90% {
+        color: #1e90ff
+    }
+
+    100% {
+        color: orange
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        color: orange
+    }
+
+    10% {
+        color: purple
+    }
+
+    20% {
+        color: red
+    }
+
+    30% {
+        color: #5f9ea0
+    }
+
+    40% {
+        color: #ff0
+    }
+
+    50% {
+        color: coral
+    }
+
+    60% {
+        color: green
+    }
+
+    70% {
+        color: #0ff
+    }
+
+    80% {
+        color: #ff1493
+    }
+
+    90% {
+        color: #1e90ff
+    }
+
+    100% {
+        color: orange
+    }
+}
+
+@media only screen and (device-width:768px) {
+    #nextsale {
+        font-size: 25px
+    }
+
     header {
         width: 100%;
         height: auto;
         background-color: #2a2e3d;
         text-align: center;
         padding: 5px;
-        margin-bottom: 50px;
-      }
-      #top {
+        margin-bottom: 50px
+    }
+
+    #top {
         margin: auto;
         width: auto;
         padding: 15px;
-        height: auto;
+        height: auto
     }
+
     #bottom {
         margin: auto;
         width: auto;
         padding: 15px;
         height: auto;
-        background-color: #1a1c24;
+        background-color: #1a1c24
     }
+
     #faq {
-        width: auto;
+        width: auto
     }
+
     footer {
         background-color: #2a2e3d;
         padding: 10px;
-        bottom: 0px;
+        bottom: 0
     }
-  }
+}
+
+@media only screen and (max-width:600px) {
+    #nextsale {
+        font-size: 25px
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        background-color: #2a2e3d;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 50px
+    }
+
+    #top {
+        margin: auto;
+        width: auto;
+        padding: 15px;
+        height: auto
+    }
+
+    #bottom {
+        margin: auto;
+        width: auto;
+        padding: 15px;
+        height: auto;
+        background-color: #1a1c24
+    }
+
+    #faq {
+        width: auto
+    }
+
+    footer {
+        background-color: #2a2e3d;
+        padding: 10px;
+        bottom: 0
+    }
+}
