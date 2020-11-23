@@ -66,7 +66,7 @@ xhr.onload = () => {
 };
 
 // create a `GET` request
-xhr.open('GET', 'data.json');
+xhr.open('GET', 'https://ifreezeno.github.io/SteamSaleDates/data.json');
 
 // send request
 xhr.send();
